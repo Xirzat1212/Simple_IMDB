@@ -11,8 +11,6 @@ namespace Simple_IMDB.Model.Entities
     {
         public string Name { get; set; }
 
-        public virtual ICollection<Film> Films { get; set; }
-
         public virtual ICollection<CategoryToFilm> CategoryToFilms { get; set; }
     }
 }

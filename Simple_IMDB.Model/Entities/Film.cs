@@ -15,8 +15,9 @@ namespace Simple_IMDB.Model.Entities
         public string Actors { get; set; }
         public string ImagePath { get; set; }
 
-        public int CategoryId { get; set; }
-        public Category Category { get; set; }
+
+        public virtual ICollection<Like> Likes { get; set; }
+
 
         public int AppUserId { get; set; }
         public virtual AppUser AppUser { get; set; }
