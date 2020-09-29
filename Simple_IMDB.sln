@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_IMDB.Model", "Simple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_IMDB.Map", "Simple_IMDB.Map\Simple_IMDB.Map.csproj", "{952D8BCE-011D-48DF-9669-9E30F001A053}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_IMDB.DAL", "Simple_IMDB.DAL\Simple_IMDB.DAL.csproj", "{B828E535-D0A0-41CA-B717-49B047727359}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{952D8BCE-011D-48DF-9669-9E30F001A053}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{952D8BCE-011D-48DF-9669-9E30F001A053}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{952D8BCE-011D-48DF-9669-9E30F001A053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B828E535-D0A0-41CA-B717-49B047727359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B828E535-D0A0-41CA-B717-49B047727359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B828E535-D0A0-41CA-B717-49B047727359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B828E535-D0A0-41CA-B717-49B047727359}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
